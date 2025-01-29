@@ -14,11 +14,11 @@ define('WORKSHOP_AUTHOR', 'ITSMNG Team');
 function plugin_version_workshop()
 {
     $requirements = [
-       'name'           => 'Workshop Plugin',
-       'version'        => WORKSHOP_VERSION,
-       'author'         => WORKSHOP_AUTHOR,
-       'homepage'       => 'https://github.com/itsmng/workshops',
-       'license'        => '<a href="../plugins/plugin-workshop/LICENSES" target="_blank">GPLv3</a>',
+        'name'           => 'Workshop Plugin',
+        'version'        => WORKSHOP_VERSION,
+        'author'         => WORKSHOP_AUTHOR,
+        'homepage'       => 'https://github.com/itsmng/workshop',
+        'license'        => '<a href="../plugins/plugin-workshop/LICENSE" target="_blank">GPLv3</a>',
     ];
     return $requirements;
 }
